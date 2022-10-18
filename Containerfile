@@ -1,7 +1,6 @@
 FROM python:slim
 WORKDIR /app
 
-COPY foo.py setup.py ./
-RUN pip3 install .
+COPY foo.py ./
 
-ENTRYPOINT ["foo"]
+ENTRYPOINT ["python", "foo.py"]
