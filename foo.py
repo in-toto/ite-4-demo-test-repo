@@ -1,4 +1,4 @@
-VERSION = "foo-v22"
+VERSION = "foo-v23"
 
 def bar():
     print('Hello in-toto')
